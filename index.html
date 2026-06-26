@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Ahmad Sauky</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav id="navbar-default" class="navbar navbar-expand-lg glass-nav fixed-top">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">Sauky's Portfolio</a>
+
+    <button id="ham-default" class="navbar-toggler text-white" type="button">
+      ☰
+    </button>
+
+    <div id="defaultNavMenu" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link" href="#home" data-section="home">Home</a></li>
+        <li><a class="nav-link" href="#about" data-section="about">About</a></li>
+        <li><a class="nav-link" href="#skills" data-section="skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects" data-section="projects">Projects</a></li>
+        <li><a class="nav-link" href="#certificates" data-section="certificates">Certificates</a></li>
+        <li><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<nav id="navbar-floating" class="glass-nav floating-nav">
+  <div class="container d-flex justify-content-between align-items-center">
+    <span class="text-white">Sauky's Portfolio</span>
+    <button id="hamburger-btn" class="btn text-white">☰</button>
+  </div>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#home" data-section="home">Home</a>
+    <a href="#about" data-section="about">About</a>
+    <a href="#skills" data-section="skills">Skills</a>
+    <a href="#projects" data-section="projects">Projects</a>
+    <a href="#certificates" data-section="certificates">Certificates</a>
+    <a href="#contact" data-section="contact">Contact</a>
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <div class="hero-container">
+
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <p class="hero-subtitle">Halo, nama saya</p>
+
+        <h1 class="hero-title">Ahmad Sauky</h1>
+
+        <h3 class="hero-typing">
+          Saya seorang <span id="typing-text"></span>
+        </h3>
+
+        <p class="hero-desc">
+          Saya adalah mahasiswa Satya Terra Bhinneka Jurusan Informatika yang memiliki minat pada teknologi dan pengembangan zaman.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Lihat Project</a>
+          <a href="#about" class="btn btn-outline-light">Tentang Saya</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="img/profil.jpeg" alt="Profile">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="section">
+
+    <div class="container about-container">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+          <div class="about-image">
+            <img src="img/about.png" alt="About Image">
+          </div>
+
+          <div class="about-text">
+            <h3>Biodata</h3>
+
+            <p>
+              Saya adalah mahasiswa Informatika yang sedang belajar pengembangan web modern menggunakan HTML, CSS, JavaScript, dan Bootstrap.
+            </p>
+
+            <p>
+              Saya sangat tertarik dalam hal coding dan programing, karena itu saya memiliki impian untuk menjadi seorang programer dan developer.
+            </p>
+
+            <div class="about-info">
+
+  <div class="info-row">
+    <span class="info-title">Nama</span>
+    <span class="info-separator">:</span>
+    <span class="info-value">Ahmad Sauky</span>
+  </div>
+
+  <div class="info-row">
+    <span class="info-title">Tempat Tanggal Lahir</span>
+    <span class="info-separator">:</span>
+    <span class="info-value">Medan, 10 November 2006</span>
+  </div>
+
+  <div class="info-row">
+    <span class="info-title">Umur</span>
+    <span class="info-separator">:</span>
+    <span class="info-value">19 Tahun</span>
+  </div>
+
+  <div class="info-row">
+    <span class="info-title">Jurusan</span>
+    <span class="info-separator">:</span>
+    <span class="info-value">S1 Informatika</span>
+  </div>
+
+</div>
+          </div>
+          <div class="mt-5">
+              <h4 class="section-title mb-4">
+                  <i class="fa-solid fa-gamepad"></i>
+                  Hobi
+              </h4>
+              <div class="row g-4">
+                  <div class="col-lg-6">
+                      <div class="glass-card hobby-card">
+                          <div id="gamingCarousel"
+                              class="carousel slide"
+                              data-bs-ride="carousel"
+                              data-bs-interval="3000">
+                              <div class="carousel-inner rounded-4">
+                                  <div class="carousel-item active">
+                                      <img src="img/Valorant.jpg" class="d-block w-100 hobby-img">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="img/ML.webp" class="d-block w-100 hobby-img">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="img/Wallpaper_GI.jpg" class="d-block w-100 hobby-img">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="img/Wallpaper_HSR.webp" class="d-block w-100 hobby-img">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="img/Wallpaper_ZZZ.webp" class="d-block w-100 hobby-img">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="p-3">
+                              <h4>
+                                  <i class="fa-solid fa-gamepad text-primary"></i>
+                                  Gaming
+                              </h4>
+                              <p>
+                                Saya suka mermain game kompetitif seperti Valorant dan Mobile Legend.
+                              </p>
+                              <p>Saya juga suka game RPG dan Combat seperti Genshin Impact, Honkai: Star Rail, dan Zenless Zone Zero.
+                              </p>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3">
+                      <div class="glass-card hobby-card">
+                          <img src="img/Membaca.jpg"
+                              class="w-100 hobby-img">
+                          <div class="p-3">
+                              <h4>
+                                  <i class="fa-solid fa-book-open text-success"></i>
+                                  Membaca
+                              </h4>
+                              <p>
+                                  Saya senang membaca buku untuk
+                                  menambah wawasan dan pengetahuan.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3">
+                      <div class="glass-card hobby-card">
+                          <img src="img/Musik.jpg"
+                              class="w-100 hobby-img">
+                          <div class="p-3">
+                              <h4>
+                                  <i class="fa-solid fa-music text-info"></i>
+                                  Musik
+                              </h4>
+                              <p>
+                                  Mendengarkan musik untuk relaksasi
+                                  dan menemani aktivitas sehari-hari.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<div class="education-section mt-5">
+    <h4 class="section-title mb-5">
+        <i class="fa-solid fa-graduation-cap"></i>
+        Jenjang Pendidikan
+    </h4>
+    <div class="education-timeline">
+        <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card glass-card">
+                <div class="edu-icon">
+                    <i class="fa-solid fa-school"></i>
+                </div>
+                <h5>SD Al-Jama'iyah</h5>
+                <span>Pendidikan Dasar</span>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card glass-card">
+                <div class="edu-icon">
+                    <i class="fa-solid fa-book-quran"></i>
+                </div>
+                <h5>MTs Az-Zidin</h5>
+                <span>Pendidikan Menengah Pertama</span>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card glass-card">
+                <div class="edu-icon">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+                <h5>SMP Ihsan Cendikiawan</h5>
+                <span>Sekolah Menengah Pertama</span>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card glass-card">
+                <div class="edu-icon">
+                    <i class="fa-solid fa-school-circle-check"></i>
+                </div>
+                <h5>SMA Tamansiswa</h5>
+                <span>Sekolah Menengah Atas</span>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="edu-dot active"></div>
+            <div class="edu-card glass-card active">
+                <div class="edu-icon">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+                <h5>Universitas Satya Terra Bhinneka</h5>
+                <span>Mahasiswa Informatika</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-box glass-card">
+      <div class="skills-container">
+        <div class="skill-item">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-brands fa-bootstrap"></i>
+          <span>Bootstrap</span>
+        </div>
+        <div class="skill-item">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card glass-card">
+        <div class="project-image">
+          <img src="img/Orangutan.jpeg" alt="Rehabilitasi Orang Utan">
+        </div>
+        <div class="project-content">
+          <h3>Sistem Rehabilitasi Orang Utan</h3>
+          <p>
+            Website sistem monitoring dan rehabilitasi orang utan
+            untuk membantu proses konservasi.
+          </p>
+          <a href="" target="_blank" class="btn btn-primary">
+            Visit Project
+          </a>
+        </div>
+      </div>
+      <div class="project-card glass-card">
+        <div class="project-image">
+          <img src="img/portofolio.png" alt="Portofolio">
+        </div>
+        <div class="project-content">
+          <h3>Portofolio Website</h3>
+          <p>
+            Website portofolio pribadi yang dibuat menggunakan HTML, CSS, JavaScript, dan Bootstrap.
+          </p>
+          <a href="https://sakiboyz01.github.io/Sauky-s_Portfolio/" class="btn btn-primary">
+            Visit Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certificates" class="section">
+  <div class="container">
+    <h2 class="section-title">My Certificates</h2>
+    <div class="certificates-container">
+      <div class="certificate-card glass-card">
+        <img src="Setifikat/Excel 2019 Associate_page-0001.jpg" alt="Certificate 1">
+        <div class="certificate-content">
+          <h4>Microsoft Office Specialist</h4>
+          <p>Sertifikat MOS Excel.</p>
+        </div>
+      </div>
+      <div class="certificate-card glass-card">
+        <img src="Setifikat/1. WEBNAS 11 nov 2025.png" alt="Certificate 2">
+        <div class="certificate-content">
+          <h4>The Miracle of Public Speacking</h4>
+          <p>Sertifikat Public Speacking.</p>
+        </div>
+      </div>
+      <div class="certificate-card glass-card">
+        <img src="Setifikat/IMG-20260620-WA0040.jpg" alt="Certificate 3">
+        <div class="certificate-content">
+          <h4>Talkshow Penulisan Akademik</h4>
+          <p>Sertifikat partisipatif.</p>
+        </div>
+      </div>
+      <div class="certificate-card glass-card">
+        <img src="Setifikat/Ahmad Sauky_IF-D SG_Pengelolahan Sampah Berkelanjutan_page-0001.jpg" alt="Certificate 4">
+        <div class="certificate-content">
+          <h4>SDGs Pengelolahan Sampah Berkelanjutan</h4>
+          <p>Sertifikat partisipatif SDGs Pengelolahan Sampah.</p>
+        </div>
+      </div>
+      <div class="certificate-card glass-card">
+        <img src="Setifikat/Ahmad Sauky_IF-D SG_SDGs 101_page-0001.jpg" alt="Certificate 5">
+        <div class="certificate-content">
+          <h4>SDGs 101</h4>
+          <p>Sertifikat partisipatif SDGs 101.</p>
+        </div>
+      </div>
+      <div class="certificate-card glass-card">
+        <img src="Setifikat/Screenshot_20260518_182915_Chrome.jpg" alt="Certificate 6">
+        <div class="certificate-content">
+          <h4>Pelayanan Masyarakat</h4>
+          <p>Sertifikat partisipatif SDGs Pelayanan Masyarakat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="modal fade" id="certificateModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <img id="certificatePreview" class="w-100">
+    </div>
+  </div>
+</div>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-container">
+      <div class="contact-left glass-card">
+        <h3>Get in Touch</h3>
+        <p><b>Nama:</b> Ahmad Sauky</p>
+        <p><b>Email:</b> ahmadsauky715@email.com</p>
+        <p>Terima kasih sudah melihat portofolio Saya</p>
+        <p>
+          Saya berharap dapat membangun koneksi dan bekerja sama dengan Anda.
+          Jika Anda tertarik, bisa hubungi Saya dikontak yang sudah tertera.
+        </p>
+
+      </div>
+
+      <div class="contact-right glass-card">
+
+        <h3>Social Media</h3>
+
+        <a href="https://wa.me/6285763345154" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+
+        <a href="https://www.instagram.com/sauky161?igsh=OGQxdGhrM3RiajNh" target="_blank">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+
+        <a href="https://github.com/Sakiboyz01" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/username" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer class="footer">
+
+  <div class="container text-center">
+
+    <p>© 2026 Ahmad Sauky. All Rights Reserved.</p>
+
+    <p class="footer-sub">
+      Built with HTML, CSS, JavaScript & Bootstrap
+    </p>
+
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
